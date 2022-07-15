@@ -19,13 +19,13 @@
 
 </summary>
 
-![image](https://user-images.githubusercontent.com/92615688/179087139-e5e4ec88-a6c6-4a35-8ab5-dad20f48b69b.png)
+![image](https://user-images.githubusercontent.com/92615688/179242650-aa60acd8-9923-48a6-9cf3-0010eab10d23.png)
 
 
 <details>
 <summary>
 
-## Imagem do código da API
+## Imagem do código de request da API
 
 </summary>
 
