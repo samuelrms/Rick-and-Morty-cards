@@ -4,7 +4,7 @@ import { Container } from "./styled";
 import { GlobalStyle } from "./styles/GlobalStyled";
 
 export const App = () => {
-  const [response, setResponse] = useState<any>();
+  const [response, setResponse] = useState<Array<object>>();
   const [loading, setLoading] = useState<boolean>();
 
   useEffect(() => {
@@ -41,23 +41,23 @@ export const App = () => {
                   src={data?.image}
                   alt={`${data?.name} pertence ao gender ${data?.gender}`}
                 />
-                {data?.species && <p>Especie {data?.species}</p>}
+                {data?.species && <h2>Especie {data?.species}</h2>}
                 {data?.status && (
-                  <p>
+                  <h2>
                     Status{" "}
                     {(data?.status === "unknown" && "desconhecido") ||
                       (data?.status === "Dead" && "morto") ||
                       (data?.status === "Alive" && "vivo") ||
                       data?.status}
-                  </p>
+                  </h2>
                 )}
                 {data?.origin && (
-                  <p>
+                  <h2>
                     Origem{" "}
                     {data?.origin?.name === "unknown"
                       ? "desconhecida"
                       : data?.origin?.name}
-                  </p>
+                  </h2>
                 )}
               </div>
             );
