@@ -23,6 +23,9 @@ export const Container = styled.section`
     h1 {
       text-decoration: underline;
     }
+    h2 {
+      font-size: 1rem;
+    }
 
     @media (max-width: 820px) {
       width: 80vw;
