@@ -3,8 +3,21 @@ import { url } from "./services/api";
 import { Container } from "./styled";
 import { GlobalStyle } from "./styles/GlobalStyled";
 
+interface IApp {
+  id?: number;
+  image: string;
+  name: string;
+  species?: string;
+  gender?: string;
+  origin?: {
+    name: string;
+    url?: string;
+  };
+  status?: string;
+}
+
 export const App = () => {
-  const [response, setResponse] = useState<Array<object>>();
+  const [response, setResponse] = useState<IApp[]>();
   const [loading, setLoading] = useState<boolean>();
 
   useEffect(() => {
@@ -33,7 +46,7 @@ export const App = () => {
         {loading ? (
           <h1>Loading...</h1>
         ) : (
-          response?.map((data: any, index: number) => {
+          response?.map((data, index) => {
             return (
               <div key={index}>
                 <h1>{data?.name}</h1>
