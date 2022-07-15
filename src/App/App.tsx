@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { url } from "./services/api";
-import { Card, IApp, Title } from "./shared";
-import { Container } from "./styled";
+import { Card, IApp } from "./shared";
+import { Container, DeviceMobile } from "./styled";
 import { GlobalStyle } from "./styles/GlobalStyled";
 
 export const App = () => {
@@ -32,12 +32,15 @@ export const App = () => {
       <GlobalStyle />
       <Container>
         {loading ? (
-          <Title>Loading...</Title>
+          <h1>Loading...</h1>
         ) : (
           response?.map((data, index) => {
             return <Card data={data} key={index} />;
           })
         )}
+        <DeviceMobile>
+          <h1>Nosso Mobile ainda está sendo produzido através de um App</h1>
+        </DeviceMobile>
       </Container>
     </>
   );

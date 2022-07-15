@@ -1,19 +1,31 @@
 import React from "react";
-import { Description, Image, Title } from "../Components";
 import { ICard } from "../Interface/Interface";
-import { Container } from "./styled";
+import { Description, Image, Title } from "./components";
+import {
+  Container,
+  ContentFooterCard,
+  ContentHeaderCard,
+  ContentText,
+} from "./styled";
 
 export const Card = ({ data }: ICard) => {
   return (
     <Container>
-      <Title>{data?.name}</Title>
       <Image image={data?.image} gender={data?.gender} name={data?.name} />
-      <Description>{data?.species}</Description>
-      <Description>
-        {data?.origin?.name === "Earth (Replacement Dimension)"
-          ? "Earth"
-          : data?.origin?.name}
-      </Description>
+      <ContentText>
+        <ContentHeaderCard>
+          <Title>{data?.name}</Title>
+          <Description>{data?.species}</Description>
+        </ContentHeaderCard>
+        <ContentFooterCard>
+          <Description>
+            {data?.origin?.name === "Earth (Replacement Dimension)"
+              ? "Earth"
+              : data?.origin?.name}
+          </Description>
+          <Description>{data?.gender}</Description>
+        </ContentFooterCard>
+      </ContentText>
     </Container>
   );
 };

@@ -1,3 +1,3 @@
 export const device = {
-  tablet: "(max-width: 768px)",
+  tablet: "(max-width: 851px)",
 };
