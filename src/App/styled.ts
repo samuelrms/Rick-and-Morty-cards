@@ -15,6 +15,8 @@ export const DeviceMobile = styled.div`
   padding: 0 30px;
   @media ${device.tablet} {
     display: flex;
+    flex-direction: column;
+    text-align: center;
   }
   h1 {
     background: ${theme.colors.purple};
