@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
 import { url } from "./services/api";
-import { Card, IApp } from "./shared";
-import { Container, DeviceMobile } from "./styled";
+import { Card, IApp, Mobile } from "./shared";
+import { Container } from "./styled";
 import { GlobalStyle } from "./styles/GlobalStyled";
-import Lottie from "react-lottie";
-import { mortyAnimation } from "./shared/Card/components";
 
 export const App = () => {
   const [response, setResponse] = useState<IApp[]>();
@@ -29,15 +27,6 @@ export const App = () => {
     }
   };
 
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: mortyAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
-
   return (
     <>
       <GlobalStyle />
@@ -49,10 +38,7 @@ export const App = () => {
             return <Card data={data} key={index} />;
           })
         )}
-        <DeviceMobile>
-          <Lottie options={defaultOptions} height="100%" width="100%" />
-          <h1>Nosso Mobile ainda está sendo produzido através de um App</h1>
-        </DeviceMobile>
+        <Mobile />
       </Container>
     </>
   );
