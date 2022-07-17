@@ -12,11 +12,12 @@
 
 ### Tablet
 
-![image](https://user-images.githubusercontent.com/92615688/179310904-37a527be-5ac0-44b2-91ed-326b0dd50a80.png)
+![image](https://user-images.githubusercontent.com/92615688/179380644-23e631bd-82da-4faa-81cb-ad80b5f3d0e1.png)
 
 ---
 
 ### Smartphone
 
-![image](https://user-images.githubusercontent.com/92615688/179310954-f5087579-934f-46a5-8c91-7fc2bf590053.png)
+![image](https://user-images.githubusercontent.com/92615688/179380642-d08b4a0d-296a-4d6d-93a8-0f6ee19c97a3.png)
+
 
