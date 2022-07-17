@@ -31,13 +31,14 @@ export const App = () => {
     <>
       <GlobalStyle />
       <Container>
-        {!loading ? (
+        {loading ? (
           <Loading />
         ) : (
           response?.map((data, index) => {
             return <Card data={data} key={index} />;
-          }) && <Mobile />
+          })
         )}
+        {loading && <Mobile />}
       </Container>
     </>
   );
