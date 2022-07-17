@@ -20,4 +20,9 @@
 
 ![image](https://user-images.githubusercontent.com/92615688/179380642-d08b4a0d-296a-4d6d-93a8-0f6ee19c97a3.png)
 
+---
+
+### Loading
+
+![Untitled video ‐ Feito com o Clipchamp](https://user-images.githubusercontent.com/92615688/179380865-5ad574e1-aa52-498e-b8ed-464c89cf05ca.gif)
 
