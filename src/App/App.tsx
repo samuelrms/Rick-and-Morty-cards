@@ -38,7 +38,7 @@ export const App = () => {
             return <Card data={data} key={index} />;
           })
         )}
-        {loading && <Mobile />}
+        {!loading && <Mobile />}
       </Container>
     </>
   );

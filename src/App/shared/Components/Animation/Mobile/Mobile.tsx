@@ -8,7 +8,7 @@ export const Mobile = () => {
     autoplay: true,
     animationData: sadMortyAnimation,
     rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
+      preserveAspectRatio: "xMidYMid cover",
     },
   };
 
