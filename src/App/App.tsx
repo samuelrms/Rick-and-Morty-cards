@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { url } from "./services/api";
-import { Card, IApp, Mobile } from "./shared";
+import { Card, IApp, Loading, Mobile } from "./shared";
 import { Container } from "./styled";
 import { GlobalStyle } from "./styles/GlobalStyled";
 
@@ -31,14 +31,13 @@ export const App = () => {
     <>
       <GlobalStyle />
       <Container>
-        {loading ? (
-          <h1>Loading...</h1>
+        {!loading ? (
+          <Loading />
         ) : (
           response?.map((data, index) => {
             return <Card data={data} key={index} />;
-          })
+          }) && <Mobile />
         )}
-        <Mobile />
       </Container>
     </>
   );
