@@ -1,6 +1,6 @@
 import React from "react";
 
-export interface IApp {
+export interface IListCards {
   id?: number;
   image: string;
   name: string;

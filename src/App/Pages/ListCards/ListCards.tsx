@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { url } from "../../services/api";
-import { Card, IApp, Loading, Mobile } from "../../shared";
+import { Card, IListCards, Loading, Mobile } from "../../shared";
 import { BackToHome, ContainerCard } from "./styled";
 
 export const ListCards = () => {
-  const [response, setResponse] = useState<IApp[]>();
+  const [response, setResponse] = useState<IListCards[]>();
   const [loading, setLoading] = useState<boolean>();
   const navigation = useNavigate();
 
