@@ -4,25 +4,65 @@
 
 ## https://resonant-sherbet-ed40a2.netlify.app
 
-### Desktop
+### Link repo APK
 
-![image](https://user-images.githubusercontent.com/92615688/179310996-6d629953-0cf0-4b92-a71b-95445b9e4bb1.png)
+## https://github.com/danielbortoleti/rick-and-morty-app/tree/main
+
+<details>
+
+<summary>
+
+# Desktop
+
+</summary>
+
+<summary>
+
+## Home
+
+</summary>
+
+![](https://user-images.githubusercontent.com/92615688/179421370-225e4e45-4a68-4be8-86db-69d729e5a527.gif)
+
+<summary>
+
+## ListCards
+
+</summary>
+
+![](https://user-images.githubusercontent.com/92615688/179421471-39954420-2e77-433a-904b-1c4b5a9ddf38.gif)
+
+</details>
+
+
 
 ---
 
-### Tablet
+<details>
 
-![image](https://user-images.githubusercontent.com/92615688/179380644-23e631bd-82da-4faa-81cb-ad80b5f3d0e1.png)
+<summary>
+
+# Responsive
+
+</summary>
+
+![](https://user-images.githubusercontent.com/92615688/179421594-f27b58c5-dfe6-4cc5-b765-d496e606903d.gif)
+
+</details>
 
 ---
 
-### Smartphone
+<details>
 
-![image](https://user-images.githubusercontent.com/92615688/179380642-d08b4a0d-296a-4d6d-93a8-0f6ee19c97a3.png)
+<summary>
 
----
+# Loading
 
-### Loading
+</summary>
 
-![Untitled video ‐ Feito com o Clipchamp](https://user-images.githubusercontent.com/92615688/179380865-5ad574e1-aa52-498e-b8ed-464c89cf05ca.gif)
+![](https://user-images.githubusercontent.com/92615688/179380865-5ad574e1-aa52-498e-b8ed-464c89cf05ca.gif)
+
+</details>
+
+
 
