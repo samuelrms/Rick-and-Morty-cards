@@ -60,7 +60,7 @@
 
 </summary>
 
-![](https://user-images.githubusercontent.com/92615688/179380865-5ad574e1-aa52-498e-b8ed-464c89cf05ca.gif)
+![](https://user-images.githubusercontent.com/92615688/179518172-eb5af718-d100-4e8d-bd44-d1448b5c7f93.gif)
 
 </details>
 
