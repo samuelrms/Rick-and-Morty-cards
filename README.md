@@ -30,7 +30,7 @@ Desenvolvendo este projeto foquei nos seguintes pontos que julgo cruciais para t
   - [animation](https://github.com/samuelrms/Rick-and-Morty-cards/tree/main/src/App/shared/Components/Animation): todas as animações do projeto.
   - [size](https://github.com/samuelrms/Rick-and-Morty-cards/tree/main/src/App/shared/Components/size): arquivo de quebra de responsivodade.
   - [pages](https://github.com/samuelrms/Rick-and-Morty-cards/tree/main/src/App/Pages): páginas da aplicação.
-  - [routes](https://github.com/samuelrms/Rick-and-Morty-cards/tree/main/src/App/Routes): todas as rotas, separadas em autenticadas e não autenticadas
+  - [routes](https://github.com/samuelrms/Rick-and-Morty-cards/tree/main/src/App/Routes): todas as rotas
   - [services](https://github.com/samuelrms/Rick-and-Morty-cards/tree/main/src/App/services): consumo da API.
   - [shared](https://github.com/samuelrms/Rick-and-Morty-cards/tree/main/src/App/shared): todos as pastas compartilhadas da aplicação.
   - [themes](https://github.com/samuelrms/Rick-and-Morty-cards/tree/main/src/App/styles): arquivos de tema.
